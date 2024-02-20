@@ -1,0 +1,309 @@
+*{
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			text-decoration: none;
+			color: #fff;
+		}
+		body{
+		
+		}
+		body,html{	
+			scroll-behavior: smooth;
+			background: rebeccapurple;
+		}
+        section{
+           min-height: 100vh;
+        }
+		header{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #fff;
+            }
+		.navbar{
+			display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 90%;
+            padding: 0.5rem 9%;
+            background: rebeccapurple;
+            position: fixed;
+			z-index: 3;		
+		}
+        .navbar i{
+            font-size: 35px;
+        }
+		.abc{
+			font-size: 1rem;
+            color: #fff;
+			right: 70px;
+            padding: 250px;
+		}
+		.abc h2{
+            font-size: 1.5rem;
+		}
+		.abc h1{
+           font-size: 3rem;
+		}
+        .abc i{
+            font-size: 30px;
+            color: #fff
+        }
+		.abc button{
+             background: purple;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+		}
+		.abc button:hover{
+			background: #c0c0c0;
+			-webkit-text-stroke: 1.5px #000;
+		}
+		.def{
+			font-size: 1rem;
+            color: #fff;
+            right: 70px;
+            padding: 250px;
+		}
+		.def h1{
+			font-size: 2.1rem;
+		}
+		.def h3{
+			font-size: 1.3rem;
+		}
+		.def h5{
+			width: 600px;
+		}
+		.def button{
+             background: purple;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .def button:hover{
+            background: #c0c0c0;
+            -webkit-text-stroke: 1.5px #000;
+        }
+        .ghi{ 
+           text-align: center;
+
+       }
+        .main_box{
+        	display: flex;
+            height: 500px;
+            width: 970px;
+            flex-wrap: wrap;
+            gap: 1.3rem;
+            padding-left: 182px
+            
+         }
+         .box1{
+         	width: 300px;
+         	height: 250px;
+         	background: purple;
+         	border-radius: 1rem;
+         }
+         .box1 i{
+            margin: 10px;
+            font-size: 40px;
+         }
+         .box1 h1{
+         	margin-top: 1rem;
+         }
+         .box1 button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .box1 button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+		}
+		.box2{
+         	width: 300px;
+         	height: 250px;
+         	background: purple;
+         	border-radius: 1rem;
+         }
+         .box2 i{
+            margin: 10px;
+            font-size: 40px;
+         }
+         .box2 h1{
+         	margin-top: 1rem;
+         }
+         .box2 button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .box2 button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+        }
+		.box3{
+         	width: 300px;
+         	height: 250px;
+         	background: purple;
+         	border-radius: 1rem;
+         }
+         .box3 i{
+            margin: 10px;
+            font-size: 40px;
+         }
+         .box3 h1{
+         	margin-top: 1rem;
+         }
+         .box3 button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .box3 button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+        }
+		.box4{
+         	width: 460px;
+         	height: 250px;
+         	background: purple;
+         	border-radius: 1rem;
+         }
+         .box4 i{
+            margin: 10px;
+            font-size: 40px;
+         }
+         .box4 h1{
+         	margin-top: 1rem;
+         }
+         .box4 button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .box4 button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+        }
+		.box5{
+         	width: 460px;
+         	height: 250px;
+         	background: purple;
+         	border-radius: 1rem;
+         }
+         .box5 i{
+            margin: 10px;
+            font-size: 40px;
+         }
+         .box5 h1{
+         	margin-top: 1rem;
+         }
+        .box5 button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .box5 button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+        }
+        .rcb{
+            text-align: center;
+            margin: 60px;
+        }
+        #container{
+            display: flex;
+            height: 600px;
+            width: 960px;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 10px;
+            padding-left: 180px;
+        }
+		img{
+			border-radius: 1rem;
+		}
+        .jkl h1{
+            text-align: center;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+        }
+        .mno{
+            margin-top: 20px;
+        }
+        .form_container{
+            display: flex;
+            flex-direction: column;
+        }
+        input{
+            background: purple;
+            width: 298px;
+            height: 40px;
+            border-radius: 0.5rem;
+            
+        }
+        .fcd{
+            background: purple;
+            font-family: sans-serif;
+            width: 600px;
+            height: 200px;
+            border-radius: 0.5rem;
+        }
+        .jkl button{
+             background: #c0c0c0;
+             border-radius: 1rem;
+             border: 0.1px solid purple; 
+             transition: 1.5s;
+             width: 125px;
+             height: 30px;
+             margin: 0.5rem;
+             padding: 0.2rem 1rem;
+             box-shadow: solid;
+        }
+        .jkl button:hover{
+            background: #000;
+            -webkit-text-stroke: 1.5px #000;
+        }
